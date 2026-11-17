@@ -52,7 +52,7 @@ python -X utf8 -m unittest discover -s skill-workbench/research-coverage/tests -
 
 - 轮次 r3 至 r14 共 12 轮，GPT 家族路由 自 r9 起连续 PASS。
 - Claude 家族路由 持续 FAIL，blocker 逐轮收敛为三类：已写明的条文被读漏、与"失败也计入预算"这一不变量冲突的要求（要求 partial 不消耗预算）、要求把全部实现细节搬进契约。r14 的 blocker 只是复述三条已明文条款，未给出新的执行路径。
-- 另一路由两次 HTTP 502，未取得该家族意见，改用历史通过的 claude 路由。
+- 另一个路由两次 HTTP 502，未取得该家族意见，改用另一个家族路由。
 - 结论：未达成两家族同时 PASS。按项目门槛这属未完成项，需要人工裁决是否接受单家族 PASS；本轮不宣称契约已通过。
 
 未做：
