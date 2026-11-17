@@ -1,0 +1,15 @@
+{
+  "topic": "寻找分布式个人Agent的可复用记忆、历史与同步构件",
+  "max_queries": 12,
+  "max_inspections": 6,
+  "limit": 30,
+  "pages": 2,
+  "screen": 25,
+  "adjacent": 8,
+  "max_upstream": 40,
+  "axes": [
+    {"id": "context", "label": "用户记忆与上下文服务", "queries": ["agent memory", "context database"]},
+    {"id": "history", "label": "跨Agent历史、来源与交接", "queries": ["cross-agent memory", "agent session history"]},
+    {"id": "offline", "label": "本地离线记录与传播", "queries": ["agent memory sync", "agent memory offline"]}
+  ]
+}
